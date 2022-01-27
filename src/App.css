@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
 .App {
   text-align: center;
+  background-image: url(http://wpocean.com/wp/lavelo/wp-content/uploads/2021/06/contact-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #05485885;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +26,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Charm', cursive;
+  position: relative;
 }
 
 .App-link {
@@ -34,5 +40,45 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.savethedate {
+  margin: 0;
+  font-size: 4rem;
+}
+.datevalue {
+  margin: 0;
+}
+.savethedate {
+  animation: blinker 1s linear infinite;
+}
+.textabsolute {
+  position: absolute;
+  top: 27%;
+}
+.leftName {
+  position: absolute;
+  left: -74%;
+  font-size: 4rem;
+  top: 60px;
+}
+.rightName {
+  position: absolute;
+  right: -100%;
+  font-size: 4rem;
+  top: -140px;
+}
+@keyframes blinker {
+  25% {
+    color: red;
+  }
+  50% {
+    color: #ff8300;
+  }
+  75% {
+    color: #61dafb;
+  }
+  100% {
+    color: #fff;
   }
 }
