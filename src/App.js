@@ -1,4 +1,5 @@
 import heart from './cercle.png';
+import whatsapp from './WhatsApp.svg.png';
 import './App.css';
 
 function App() {
@@ -19,6 +20,10 @@ function App() {
           <h3 className="rightName"> Taruna</h3>
         </div>
         <h2 style={{ color: '#ff8300' }} className="venue">Venue :- Pt. Ramswaroop Upadhyay Mahavidhyalay Murwan Banda (U.P.)</h2>
+        <h5 style={{ margin: 0, color: '#ff8300' }}>Call : 9584562228 </h5>
+        <a href="https://api.whatsapp.com/send?phone=+919584562228">
+          <img style={{ width: '50px' }} src={whatsapp} alt="Whatsapp" />
+        </a>
       </header>
     </div>
   );
