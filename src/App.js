@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={heart} />
+        <img src={heart} alt="Raj Mini" />
         <div className="textabsolute">
           <h1 className="savethedate">Save the Date</h1>
           <h1 className="datevalue">10<sup>th</sup> Feb 2022</h1>
