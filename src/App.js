@@ -18,8 +18,7 @@ function App() {
           <h3 className="leftName"> Raj</h3>
           <h3 className="rightName"> Taruna</h3>
         </div>
-        <h2 style={{ color: '#ff8300' }} className="venue">Venue :- Pt. Ramswaroop Upadhyay Mahavidhyalay Murwan (U.P.)</h2>
-        <h5 style={{ margin: 0, color: '#ff8300' }}>( Near Banda Uttar Pradesh Railway Station )</h5>
+        <h2 style={{ color: '#ff8300' }} className="venue">Venue :- Pt. Ramswaroop Upadhyay Mahavidhyalay Murwan Banda (U.P.)</h2>
       </header>
     </div>
   );
